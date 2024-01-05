@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfAppGRafika3Ppiatek.Menu_ObrazkiWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppGRafika3Ppiatek"
+        mc:Ignorable="d"
+        Title="Menu_ObrazkiWindow" Height="450" Width="800">
+    <StackPanel>
+        <Menu>
+            <MenuItem Header="Obraze_k">
+                <MenuItem Header="o_braz1" Click="MenuItem_Click_1"/>
+                <MenuItem Header="ob_raz2"/>
+                <MenuItem Header="obr_az3"/>
+            </MenuItem>
+            <MenuItem Header="Zamknij" Click="MenuItem_Click"/>
+        </Menu>
+        <Image Source="rys1.jpg" x:Name="obrazek_menu"/>
+    </StackPanel>
+</Window>
